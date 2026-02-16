@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quiz Result</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+        }
+        .box {
+            background: white;
+            padding: 40px;
+            margin-top: 100px;
+            width: 40%;
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 10px;
+        }
+        h1 {
+            color: green;
+        }
+        a {
+            text-decoration: none;
+            background: blue;
+            color: white;
+            padding: 10px 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="box">
+    <h1>Your Score</h1>
+    <h2>{{ score }} / {{ total }}</h2>
+
+    <br>
+    <a href="/">Try Again</a>
+</div>
+
+</body>
+</html>
